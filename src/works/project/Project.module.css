@@ -1,0 +1,32 @@
+.project {
+    width: 300px;
+    background-color: #ded4d4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.picture {
+    height: 400px;
+    width: 100%;
+    background-color: #b74f4f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    background-color: #c2b5b5;
+    padding: 10px;
+    margin: 5px 5px 5px 20px;
+    box-sizing: border-box;
+}
+
+.description {
+    background-color: #c2b5b5;
+    padding: 10px;
+    margin: 5px 5px 5px 20px;
+}
+
