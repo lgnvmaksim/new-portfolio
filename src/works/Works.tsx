@@ -11,7 +11,7 @@ export const Works = () => {
                 <div className={s.works}>
                     <Project title={'Todolist'} description={'My first project'}/>
                     <Project title={'Counter'} description={'I made it myself :)'}/>
-                    <Project title={'Portfolio'} description={'I think i have very poor portfolio...yet'}/>
+                    {/*<Project title={'Portfolio'} description={'I think i have very poor portfolio...yet'}/>*/}
                 </div>
 
             </div>

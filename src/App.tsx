@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Header} from "./header/Header";
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
 import {Works} from "./works/Works";
+import {RemoteWork} from "./contact/remoteWork/RemoteWork";
+import {Contact} from "./contact/contact/Contact";
+import {Footer} from "./footer/Footer";
 
 function App() {
     return (
@@ -13,6 +15,9 @@ function App() {
             <Main/>
             <Skills/>
             <Works/>
+            <RemoteWork/>
+            <Contact/>
+            <Footer/>
         </div>
     );
 }

@@ -1,0 +1,34 @@
+.footerBlock{
+    min-height: 30vh;
+    background-color: #e3adc5;
+}
+.footerContainer{
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #c0489a;
+
+}
+
+.iconStyle{
+    display: flex;
+    border: 1px solid;
+    margin: 40px;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+    background-color: #5c8d91;
+    margin: 3px;
+}
+
+.title{
+    background-color: #595ec0;
+}
+
+.lastTitle{
+    background-color: #c7c6c6;
+}
