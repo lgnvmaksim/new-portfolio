@@ -10,7 +10,7 @@ export const Project = ({title, description}:PropsType) => {
     return (
         <div className={s.project}>
             <div className={s.picture}>
-                <button>Смотреть</button>
+                <a className={s.link} href="">Смотреть</a>
             </div>
             <div className={s.title}>
                 {title}

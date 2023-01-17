@@ -30,3 +30,12 @@
     margin: 5px 5px 5px 20px;
 }
 
+.link{
+    text-decoration: none;
+    color: #282c34;
+    font-weight: bolder;
+    background-color: #81817a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
