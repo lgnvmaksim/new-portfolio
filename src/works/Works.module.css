@@ -1,6 +1,10 @@
 .workBlock{
     min-height: 100vh;
-    background-color: #96d967;
+    background-color: #1f1f20;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    justify-content: space-around;
 }
 
 .workContainer{
@@ -9,14 +13,20 @@
     border: 1px solid #67a5c0;
 }
 
-.title{
-    background-color: #67a5c0;
-}
 
 .works{
     border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;;
     flex-wrap: wrap;
+    margin-top: 20px;
+
 }
+
+@media screen and (max-width: 749px) {
+    .works {
+        justify-content: center;
+    }
+}
+
