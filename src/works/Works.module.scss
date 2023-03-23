@@ -1,0 +1,33 @@
+@import "src/common/styles/sass/variables";
+
+.workBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+
+  .workContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #67a5c0;
+
+    .works {
+      border: 1px solid;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      @media screen and (max-width: 749px) {
+        justify-content: center;
+      }
+    }
+
+  }
+}
+
+
+
+
