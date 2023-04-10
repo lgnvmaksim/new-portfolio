@@ -1,0 +1,31 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor;
+
+  .text {
+    width: 300px;
+
+  }
+
+  .text span {
+    @include text($TitleFontFamily, 16px, 1.2);
+  }
+
+  .text h1 {
+    @include text($TitleFontFamily, 50px, 1.2);
+  }
+
+  .text p {
+    @include text($TitleFontFamily, 27px, 1.2);
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    background-color: #c7c6c6;
+  }
+}
+

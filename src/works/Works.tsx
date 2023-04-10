@@ -10,7 +10,7 @@ export const Works = () => {
     return (
         <div className={s.workBlock}>
             <div className={`${sc.container}  ${s.workContainer}`}>
-             <Title text={'My works'}/>
+                <Title text={'My works'}/>
                 <div className={s.works}>
                     <Project title={'Todolist'} description={'My first project'} style={todolistImage}/>
                     <Project title={'SocialNetwork'} description={'I made it myself :)'} style={socialNetwork}/>

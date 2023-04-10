@@ -1,0 +1,46 @@
+@import "src/common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+
+
+.contactBlock {
+  min-height: 45vh;
+  background-color: $bgColor;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .contactContainer {
+    flex-direction: column;
+    border: 1px solid #0deedc;
+
+    .textContacts {
+      border: 1px solid;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .input {
+        margin: 10px;
+        max-width: 200px;
+      }
+
+      .link {
+        text-decoration: none;
+        color: $textColor;
+        font-weight: bolder;
+        background-color: #81817a;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 40px;
+        transition: background-color 0.3s;
+      }
+    }
+  }
+
+}
+
+
+
+
+

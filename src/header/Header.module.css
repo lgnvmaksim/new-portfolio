@@ -1,6 +1,6 @@
 .header {
     height: 80px;
-    background-color: skyblue;
+    background-color: rgb(38, 38, 38);
     display: flex;
     justify-content: flex-end;
     align-items: center;
